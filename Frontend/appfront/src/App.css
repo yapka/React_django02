@@ -1,0 +1,59 @@
+/* Définition des couleurs personnalisées */
+:root {
+  --primary: #124660;
+  --secondary: #1B9476;
+  --tertiary: #8BD59E;
+  --quaternary: #C7DBC2;
+  --background: #F4EBD6;
+}
+
+/* Utilisation des couleurs dans les classes Tailwind */
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary);
+}
+
+.text-tertiary {
+  color: var(--tertiary);
+}
+
+.bg-quaternary {
+  background-color: var(--quaternary);
+}
+
+.text-quaternary {
+  color: var(--quaternary);
+}
+
+.bg-background {
+  background-color: var(--background);
+}
+
+.text-background {
+  color: var(--background);
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
